@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/105357029/UPDoneKeyBoard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '105357029' => 'umesh.pedde@easebuzz.in' }
-  s.source           = { :git => 'https://github.com/105357029/UPDoneKeyBoard.git', :tag => s.version.to_s }
+  s.author           = { 'umeshEasebuzz' => 'umesh.pedde@easebuzz.in' }
+  s.source           = { :git => 'https://github.com/umeshEasebuzz/UPDoneKeyBoard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'UPDoneKeyBoard/Classes/**/*'
   

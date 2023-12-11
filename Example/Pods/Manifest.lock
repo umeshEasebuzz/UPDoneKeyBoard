@@ -1,0 +1,16 @@
+PODS:
+  - UPDoneKeyBoard (0.1.0)
+
+DEPENDENCIES:
+  - UPDoneKeyBoard (from `../`)
+
+EXTERNAL SOURCES:
+  UPDoneKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UPDoneKeyBoard: a238931da8e96231e31e2aab2de2e0a11983afbd
+
+PODFILE CHECKSUM: 0449ad0c21cd876c79b3616cf886f50692050d65
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,22 @@
+{
+  "name": "UPDoneKeyBoard",
+  "version": "0.1.0",
+  "summary": "A short description of UPDoneKeyBoard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/105357029/UPDoneKeyBoard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "105357029": "umesh.pedde@easebuzz.in"
+  },
+  "source": {
+    "git": "https://github.com/105357029/UPDoneKeyBoard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UPDoneKeyBoard/Classes/**/*"
+}

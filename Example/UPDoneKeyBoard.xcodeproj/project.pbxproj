@@ -43,10 +43,10 @@
 		65ED4016D604B68929E285F0 /* Pods_UPDoneKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPDoneKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70640F4C3624860DF38D9B7C /* Pods-UPDoneKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPDoneKeyBoard_Tests.release.xcconfig"; path = "Target Support Files/Pods-UPDoneKeyBoard_Tests/Pods-UPDoneKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E3429395A7DC4837A1B2B33 /* Pods-UPDoneKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPDoneKeyBoard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UPDoneKeyBoard_Tests/Pods-UPDoneKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8610C70E88F214103DDCF20D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9DA184F8BD37A1153BD40317 /* UPDoneKeyBoard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UPDoneKeyBoard.podspec; path = ../UPDoneKeyBoard.podspec; sourceTree = "<group>"; };
+		8610C70E88F214103DDCF20D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DA184F8BD37A1153BD40317 /* UPDoneKeyBoard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UPDoneKeyBoard.podspec; path = ../UPDoneKeyBoard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCED0CCB5AFDB2FD1804986B /* Pods-UPDoneKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPDoneKeyBoard_Example.debug.xcconfig"; path = "Target Support Files/Pods-UPDoneKeyBoard_Example/Pods-UPDoneKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F215AD524AFED5002A6CF4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F215AD524AFED5002A6CF4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7E3429395A7DC4837A1B2B33 /* Pods-UPDoneKeyBoard_Tests.debug.xcconfig */,
 				70640F4C3624860DF38D9B7C /* Pods-UPDoneKeyBoard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
