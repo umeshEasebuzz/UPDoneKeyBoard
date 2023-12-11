@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UPDoneKeyBoard_Example' do
+  pod 'UPDoneKeyBoard', :path => '../'
+
+  target 'UPDoneKeyBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
